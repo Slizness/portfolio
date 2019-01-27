@@ -451,7 +451,9 @@ body {
     font-size: 14px;
     padding: 13px 26px;
   }
-  .about_title
+  .about_title {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 599px) {
   .footer-menu {
