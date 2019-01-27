@@ -1,0 +1,333 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.description {
+  margin-left: 9px;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c847218/v847218338/1436b8/ox75s6wlWIU.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  position: relative;
+}
+.menu-list a::after {
+  content: "";
+  height: 3px;
+  width: 0.01%;
+  background-color: #2b2a2c;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+}
+.menu-list a:hover::after {
+  transition: 0.5s;
+  width: 100%;
+}
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border: 2px solid #2b2a2c;
+  border-radius: 50px;
+  padding: 13px 23px;
+}
+.menu-button::after {
+  height: 0px !important;
+  width: 0px !important;
+}
+.hero-info {
+  background: url('https://wmpics.pics/di-CFIR.png') no-repeat right bottom;
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+}
+.projects {
+  padding: 97px 0px;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-card__image {
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.landing-page {
+  background: url('http://startbootstrap.com/assets/img/templates/landing-page.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page_2 {
+  background: url('http://unbounce.com/photos/logi-landing-page-full.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page_3 {
+  background: url('https://wpnewsify-cdn26.netdna-ssl.com/wp-content/uploads/2016/08/What-is-a-Landing-Page-For-1.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page_4 {
+  background: url('https://image.freepik.com/free-vector/blockchain-concept-for-landing-page_23-2147861113.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.corporate-page {
+  background: url('https://s.tmimgcdn.com/scr/62600/62666_update_1v1-1300_01.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.corporate-page_2 {
+  background: url('https://i.pinimg.com/originals/7b/30/8b/7b308bac9c6494b9d867bb3b783c18f9.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.corporate-page_3 {
+  background: url('https://webness.hu/uploads/service/2/image.jpg?v=1488570506') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shop-page {
+  background: url('https://mdbootstrap.com/wp-content/themes/mdbootstrap4/content/jquery/tutorials/wordpress/ecommerce/2/img/1.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.taxi-page {
+  background: url('https://cdn.freshdesignweb.com/wp-content/uploads/site/taxi-website-templates.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 105px;
+}
+.about_title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+}
+.about_description {
+  color: #717072;
+  font-size: 14px;
+  margin-bottom: 53px;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0px;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+  text-decoration: none;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid #8d8d8e;
+  border-radius: 50px;
+  padding: 8px 23px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+  .project-card {
+    width: 48%;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .footer-info {
+    flex-direction: column;
+  }
+  .footer-text {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-menu {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .description_small {
+    font-size: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .hero-info {
+    background: url('https://wmpics.pics/di-CFIR.png') no-repeat right bottom;
+    padding-top: 30px;
+    padding-bottom: 550px;
+  }
+}
